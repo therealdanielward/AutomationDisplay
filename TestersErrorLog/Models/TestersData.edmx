@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TestersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="tbl_ErrorLog_AudiCentreBloemfontein">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_AutohausCenturion">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsBellville">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsBruma">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsCulemborg">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BenoniCiti">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_Boat_A_Rama">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ClaremontVolkswagen">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ConsolidatedAuto">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_HymanCars">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_iXOnlineMotoring">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_IXTradertestclient4' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_IXTradertestclient4">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+        <EntityType Name="tbl_ErrorLog_LindsaySakerAlberton">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_NormansToyota">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_PalmMotors">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_RoyceLoveNissan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ShadesAutoRepairscc">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_WeissVolkswagenDurban">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>
+        <EntityContainer Name="TestersModelStoreContainer">
+          <EntitySet Name="tbl_ErrorLog_AudiCentreBloemfontein" EntityType="Self.tbl_ErrorLog_AudiCentreBloemfontein" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_AutohausCenturion" EntityType="Self.tbl_ErrorLog_AutohausCenturion" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_BaronsBellville" EntityType="Self.tbl_ErrorLog_BaronsBellville" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_BaronsBruma" EntityType="Self.tbl_ErrorLog_BaronsBruma" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_BaronsCulemborg" EntityType="Self.tbl_ErrorLog_BaronsCulemborg" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_BenoniCiti" EntityType="Self.tbl_ErrorLog_BenoniCiti" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_Boat_A_Rama" EntityType="Self.tbl_ErrorLog_Boat_A_Rama" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_ClaremontVolkswagen" EntityType="Self.tbl_ErrorLog_ClaremontVolkswagen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_ConsolidatedAuto" EntityType="Self.tbl_ErrorLog_ConsolidatedAuto" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_HymanCars" EntityType="Self.tbl_ErrorLog_HymanCars" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_iXOnlineMotoring" EntityType="Self.tbl_ErrorLog_iXOnlineMotoring" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_LindsaySakerAlberton" EntityType="Self.tbl_ErrorLog_LindsaySakerAlberton" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW" EntityType="Self.tbl_ErrorLog_LindsaySakerBloemfonteinVW" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_NormansToyota" EntityType="Self.tbl_ErrorLog_NormansToyota" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_PalmMotors" EntityType="Self.tbl_ErrorLog_PalmMotors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_RoyceLoveNissan" EntityType="Self.tbl_ErrorLog_RoyceLoveNissan" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_ShadesAutoRepairscc" EntityType="Self.tbl_ErrorLog_ShadesAutoRepairscc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_ErrorLog_WeissVolkswagenDurban" EntityType="Self.tbl_ErrorLog_WeissVolkswagenDurban" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TestersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="TestersEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="tbl_ErrorLog_NormansToyota" EntityType="TestersModel.tbl_ErrorLog_NormansToyota" />
+          <EntitySet Name="tbl_ErrorLog_PalmMotors" EntityType="TestersModel.tbl_ErrorLog_PalmMotors" />
+          <EntitySet Name="tbl_ErrorLog_RoyceLoveNissan" EntityType="TestersModel.tbl_ErrorLog_RoyceLoveNissan" />
+          <EntitySet Name="tbl_ErrorLog_WeissVolkswagenDurban" EntityType="TestersModel.tbl_ErrorLog_WeissVolkswagenDurban" />
+          <EntitySet Name="tbl_ErrorLog_AudiCentreBloemfontein" EntityType="TestersModel.tbl_ErrorLog_AudiCentreBloemfontein" />
+          <EntitySet Name="tbl_ErrorLog_iXOnlineMotoring" EntityType="TestersModel.tbl_ErrorLog_iXOnlineMotoring" />
+          <EntitySet Name="tbl_ErrorLog_LindsaySakerAlberton" EntityType="TestersModel.tbl_ErrorLog_LindsaySakerAlberton" />
+          <EntitySet Name="tbl_ErrorLog_AutohausCenturion" EntityType="TestersModel.tbl_ErrorLog_AutohausCenturion" />
+          <EntitySet Name="tbl_ErrorLog_BaronsBellville" EntityType="TestersModel.tbl_ErrorLog_BaronsBellville" />
+          <EntitySet Name="tbl_ErrorLog_BaronsBruma" EntityType="TestersModel.tbl_ErrorLog_BaronsBruma" />
+          <EntitySet Name="tbl_ErrorLog_BaronsCulemborg" EntityType="TestersModel.tbl_ErrorLog_BaronsCulemborg" />
+          <EntitySet Name="tbl_ErrorLog_BenoniCiti" EntityType="TestersModel.tbl_ErrorLog_BenoniCiti" />
+          <EntitySet Name="tbl_ErrorLog_Boat_A_Rama" EntityType="TestersModel.tbl_ErrorLog_Boat_A_Rama" />
+          <EntitySet Name="tbl_ErrorLog_ClaremontVolkswagen" EntityType="TestersModel.tbl_ErrorLog_ClaremontVolkswagen" />
+          <EntitySet Name="tbl_ErrorLog_ConsolidatedAuto" EntityType="TestersModel.tbl_ErrorLog_ConsolidatedAuto" />
+          <EntitySet Name="tbl_ErrorLog_HymanCars" EntityType="TestersModel.tbl_ErrorLog_HymanCars" />
+          <EntitySet Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW" EntityType="TestersModel.tbl_ErrorLog_LindsaySakerBloemfonteinVW" />
+          <EntitySet Name="tbl_ErrorLog_ShadesAutoRepairscc" EntityType="TestersModel.tbl_ErrorLog_ShadesAutoRepairscc" />
+        </EntityContainer>
+        <EntityType Name="tbl_ErrorLog_NormansToyota">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_PalmMotors">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_RoyceLoveNissan">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_WeissVolkswagenDurban">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_AudiCentreBloemfontein">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_iXOnlineMotoring">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_LindsaySakerAlberton">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_AutohausCenturion">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsBellville">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsBruma">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BaronsCulemborg">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_BenoniCiti">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_Boat_A_Rama">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ClaremontVolkswagen">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ConsolidatedAuto">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_HymanCars">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="tbl_ErrorLog_ShadesAutoRepairscc">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CompleteDate" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="StatusLevel" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TestersModelStoreContainer" CdmEntityContainer="TestersEntities" >
+          <EntitySetMapping Name="tbl_ErrorLog_NormansToyota">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_NormansToyota">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_NormansToyota">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_PalmMotors">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_PalmMotors">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_PalmMotors">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_RoyceLoveNissan">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_RoyceLoveNissan">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_RoyceLoveNissan">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_WeissVolkswagenDurban">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_WeissVolkswagenDurban">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_WeissVolkswagenDurban">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_AudiCentreBloemfontein">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_AudiCentreBloemfontein">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_AudiCentreBloemfontein">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_iXOnlineMotoring">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_iXOnlineMotoring">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_iXOnlineMotoring">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_LindsaySakerAlberton">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_LindsaySakerAlberton">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_LindsaySakerAlberton">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_AutohausCenturion">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_AutohausCenturion">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_AutohausCenturion">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_BaronsBellville">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsBellville">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsBellville">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_BaronsBruma">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsBruma">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsBruma">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_BaronsCulemborg">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsCulemborg">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsCulemborg">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_BenoniCiti">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BenoniCiti">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_BenoniCiti">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_Boat_A_Rama">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_Boat_A_Rama">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_Boat_A_Rama">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_ClaremontVolkswagen">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ClaremontVolkswagen">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_ClaremontVolkswagen">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_ConsolidatedAuto">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ConsolidatedAuto">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_ConsolidatedAuto">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_HymanCars">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_HymanCars">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_HymanCars">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_ErrorLog_ShadesAutoRepairscc">
+            <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ShadesAutoRepairscc">
+              <MappingFragment StoreEntitySet="tbl_ErrorLog_ShadesAutoRepairscc">
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+                <ScalarProperty Name="URL" ColumnName="URL" />
+                <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestersModelStoreContainer" CdmEntityContainer="TestersEntities">
+    <EntitySetMapping Name="tbl_ErrorLog_NormansToyota">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_NormansToyota">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_NormansToyota">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_PalmMotors">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_PalmMotors">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_PalmMotors">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_RoyceLoveNissan">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_RoyceLoveNissan">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_RoyceLoveNissan">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_WeissVolkswagenDurban">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_WeissVolkswagenDurban">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_WeissVolkswagenDurban">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_AudiCentreBloemfontein">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_AudiCentreBloemfontein">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_AudiCentreBloemfontein">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_iXOnlineMotoring">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_iXOnlineMotoring">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_iXOnlineMotoring">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_LindsaySakerAlberton">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_LindsaySakerAlberton">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_LindsaySakerAlberton">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_AutohausCenturion">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_AutohausCenturion">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_AutohausCenturion">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_BaronsBellville">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsBellville">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsBellville">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_BaronsBruma">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsBruma">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsBruma">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_BaronsCulemborg">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BaronsCulemborg">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_BaronsCulemborg">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_BenoniCiti">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_BenoniCiti">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_BenoniCiti">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_Boat_A_Rama">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_Boat_A_Rama">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_Boat_A_Rama">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_ClaremontVolkswagen">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ClaremontVolkswagen">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_ClaremontVolkswagen">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_ConsolidatedAuto">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ConsolidatedAuto">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_ConsolidatedAuto">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_HymanCars">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_HymanCars">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_HymanCars">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_ErrorLog_ShadesAutoRepairscc">
+      <EntityTypeMapping TypeName="TestersModel.tbl_ErrorLog_ShadesAutoRepairscc">
+        <MappingFragment StoreEntitySet="tbl_ErrorLog_ShadesAutoRepairscc">
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="StatusLevel" ColumnName="StatusLevel" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="CompleteDate" ColumnName="CompleteDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

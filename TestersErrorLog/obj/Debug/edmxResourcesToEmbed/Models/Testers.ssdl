@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AudiCentreBloemfontein' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AudiCentreBloemfontein">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AudiCentreN1City' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AudiCentreN1City">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AudiCenturion' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AudiCenturion">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AudiSoutheyStreet' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AudiSoutheyStreet">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AudiTheGlen' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AudiTheGlen">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_AutohausCenturion' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_AutohausCenturion">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_BaronsBellville' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_BaronsBellville">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_BaronsBruma' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_BaronsBruma">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_BaronsCulemborg' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_BaronsCulemborg">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_BaronsSouthfleet' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_BaronsSouthfleet">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_BenoniCiti' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_BenoniCiti">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_Boat_A_Rama' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_Boat_A_Rama">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_ClaremontVolkswagen' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_ClaremontVolkswagen">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_CMHMarineAndLeisuretaBRP' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_CMHMarineAndLeisuretaBRP">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_ConsolidatedAuto' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_ConsolidatedAuto">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_HoneydewToyota' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_HoneydewToyota">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_Hoopers' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_Hoopers">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_HymanCars' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_HymanCars">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_InvestmentCarsHatfield' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_InvestmentCarsHatfield">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_iXOnlineMotoring' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_iXOnlineMotoring">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_IXTradertestclient4' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_IXTradertestclient4">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_LamborghiniClub' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_LamborghiniClub">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_LindsaySakerAlberton' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_LindsaySakerAlberton">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_LindsaySakerBloemfonteinVW' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_McCarthyVolkswagenConstantia' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_McCarthyVolkswagenConstantia">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_NormansToyota' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_NormansToyota">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_PalmMotors' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_PalmMotors">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_PrincesBenoni' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_PrincesBenoni">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_RoyceLoveNissan' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_RoyceLoveNissan">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_ShadesAutoRepairscc' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_ShadesAutoRepairscc">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_Waterworld' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_Waterworld">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_WeissVolkswagenDurban' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_WeissVolkswagenDurban">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <EntityContainer Name="TestersModelStoreContainer" />
+</Schema>

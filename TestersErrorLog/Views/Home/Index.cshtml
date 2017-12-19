@@ -1,0 +1,53 @@
+﻿@model TestersErrorLog.ViewModel.EntityViewModel
+
+
+@{
+    ViewBag.Title = "ErrorLog";
+}
+
+<style>
+    input {
+        margin: 5px
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    <div id="filterDiv" class="container">
+        <div class="col-sm-4 pull-left">
+            <div class="panel panel-default">
+                <div class="panel-heading">Filters</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.DropDownListFor(model => model.Name, TestersErrorLog.Helpers.SelectListHelper.GetTableNames(), new { @class = "btn btn-default" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="button" class="btn btn-primary pull-right" value="List" onclick="location.href='@Url.Action("Index", "Home")?Name=' + $('#Name').val().split(' ')[0]" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@if (Model.Items != null && Model.Items.Any())
+{@(Html.Partial("table", Model))}
+else
+{   <div class="alert alert-info">
+    <strong>Info!</strong> No errors found for this client.
+    </div>
+}
+
+
+
+
+
+
+
+

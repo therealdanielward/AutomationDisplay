@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="69eada72a86c43c4b4dd8092af834a0b" Name="Diagram1" >
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_NormansToyota" Width="1.5" PointX="1.75" PointY="0.875" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_PalmMotors" Width="1.5" PointX="3.75" PointY="0.875" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_RoyceLoveNissan" Width="1.5" PointX="1.75" PointY="3.875" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_WeissVolkswagenDurban" Width="1.5" PointX="3.75" PointY="3.875" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_AudiCentreBloemfontein" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_iXOnlineMotoring" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_LindsaySakerAlberton" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_AutohausCenturion" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_BaronsBellville" Width="1.5" PointX="5.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_BaronsBruma" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_BaronsCulemborg" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_BenoniCiti" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_Boat_A_Rama" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_ClaremontVolkswagen" Width="1.5" PointX="2.75" PointY="9.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_ConsolidatedAuto" Width="1.5" PointX="4.75" PointY="9.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_HymanCars" Width="1.5" PointX="9.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_LindsaySakerBloemfonteinVW" Width="1.5" PointX="6.75" PointY="9.75" />
+        <EntityTypeShape EntityType="TestersModel.tbl_ErrorLog_ShadesAutoRepairscc" Width="1.5" PointX="8.75" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

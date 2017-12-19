@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_ErrorLog_AudiCentreBloemfontein">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_AutohausCenturion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_BaronsBellville">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_BaronsBruma">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_BaronsCulemborg">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_BenoniCiti">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_Boat_A_Rama">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_ClaremontVolkswagen">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_ConsolidatedAuto">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_HymanCars">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_iXOnlineMotoring">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'Testers.dbo.tbl_ErrorLog_IXTradertestclient4' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="tbl_ErrorLog_IXTradertestclient4">
+          <Property Name="CompleteDate" Type="varchar(max)" />
+          <Property Name="URL" Type="varchar(max)" />
+          <Property Name="StatusLevel" Type="varchar(max)" />
+          <Property Name="ErrorMessage" Type="varchar(max)" />
+        </EntityType>-->
+  <EntityType Name="tbl_ErrorLog_LindsaySakerAlberton">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_NormansToyota">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_PalmMotors">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_RoyceLoveNissan">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_ShadesAutoRepairscc">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_ErrorLog_WeissVolkswagenDurban">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CompleteDate" Type="varchar(max)" />
+    <Property Name="URL" Type="varchar(max)" />
+    <Property Name="StatusLevel" Type="varchar(max)" />
+    <Property Name="ErrorMessage" Type="varchar(max)" />
+  </EntityType>
+  <EntityContainer Name="TestersModelStoreContainer">
+    <EntitySet Name="tbl_ErrorLog_AudiCentreBloemfontein" EntityType="Self.tbl_ErrorLog_AudiCentreBloemfontein" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_AutohausCenturion" EntityType="Self.tbl_ErrorLog_AutohausCenturion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_BaronsBellville" EntityType="Self.tbl_ErrorLog_BaronsBellville" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_BaronsBruma" EntityType="Self.tbl_ErrorLog_BaronsBruma" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_BaronsCulemborg" EntityType="Self.tbl_ErrorLog_BaronsCulemborg" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_BenoniCiti" EntityType="Self.tbl_ErrorLog_BenoniCiti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_Boat_A_Rama" EntityType="Self.tbl_ErrorLog_Boat_A_Rama" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_ClaremontVolkswagen" EntityType="Self.tbl_ErrorLog_ClaremontVolkswagen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_ConsolidatedAuto" EntityType="Self.tbl_ErrorLog_ConsolidatedAuto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_HymanCars" EntityType="Self.tbl_ErrorLog_HymanCars" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_iXOnlineMotoring" EntityType="Self.tbl_ErrorLog_iXOnlineMotoring" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_LindsaySakerAlberton" EntityType="Self.tbl_ErrorLog_LindsaySakerAlberton" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_LindsaySakerBloemfonteinVW" EntityType="Self.tbl_ErrorLog_LindsaySakerBloemfonteinVW" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_NormansToyota" EntityType="Self.tbl_ErrorLog_NormansToyota" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_PalmMotors" EntityType="Self.tbl_ErrorLog_PalmMotors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_RoyceLoveNissan" EntityType="Self.tbl_ErrorLog_RoyceLoveNissan" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_ShadesAutoRepairscc" EntityType="Self.tbl_ErrorLog_ShadesAutoRepairscc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_ErrorLog_WeissVolkswagenDurban" EntityType="Self.tbl_ErrorLog_WeissVolkswagenDurban" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
