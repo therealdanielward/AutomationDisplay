@@ -100,3 +100,8 @@ C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\Tes
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\obj\Release\TestersErrorLog.csprojResolveAssemblyReference.cache
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\obj\Release\TestersErrorLog.dll
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\obj\Release\TestersErrorLog.pdb
+C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\MvcTricks.RoundTripModelBinding.dll
+C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.dll
+C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\MvcTricks.RoundTripModelBinding.xml
+C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.pdb
+C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.xml

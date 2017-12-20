@@ -2,7 +2,7 @@
 
 
 @{
-    ViewBag.Title = "ErrorLog";
+    ViewBag.Title = "Error Log";
 }
 
 <style>
@@ -10,6 +10,10 @@
         margin: 5px
     }
 </style>
+
+<script>
+    $(".grid-mvc").gridmvc();
+    </script>
 
 @using (Html.BeginForm())
 {
@@ -20,8 +24,6 @@
                 <div class="panel-body">
                     <div class="form-group">
                         <div class="col-sm-12">
-                            @Html.AntiForgeryToken()
-                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                             @Html.DropDownListFor(model => model.Name, TestersErrorLog.Helpers.SelectListHelper.GetTableNames(), new { @class = "btn btn-default" })
                         </div>
                     </div>
@@ -39,8 +41,20 @@
 @if (Model.Items != null && Model.Items.Any())
 {@(Html.Partial("table", Model))}
 else
-{   <div class="alert alert-info">
-    <strong>Info!</strong> No errors found for this client.
+{
+    <div id="tableDiv" class="container">
+        <div class="col-sm-12 pull-left">
+            <div class="panel panel-default">
+                <div class="panel-heading">Results</div>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <div class="alert alert-info">
+                            <strong>Info!</strong> No errors found for this client.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 }
 

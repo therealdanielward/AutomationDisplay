@@ -51,7 +51,7 @@ namespace TestersErrorLog.Helpers
                             i.rowcnt 
                             FROM sysindexes AS i
                             INNER JOIN sysobjects AS o ON i.id = o.id 
-                            WHERE i.indid < 2  AND OBJECTPROPERTY(o.id, 'IsMSShipped') = 0
+                            WHERE i.indid < 2  AND OBJECTPROPERTY(o.id, 'IsMSShipped') = 0 AND i.rowcnt > 0
                             ORDER BY o.NAME";
 
             SqlDataAdapter adapter = new SqlDataAdapter(query, System.Configuration.ConfigurationManager.ConnectionStrings["Testers"].ConnectionString);
@@ -59,10 +59,6 @@ namespace TestersErrorLog.Helpers
 
             foreach (DataRow row in dt.Rows)
             {
-
-                
-
-
                 tableNames.Add(new TableNames() { Name = row["name"].ToString().Replace("tbl_ErrorLog_", "") + "  ("+row["rowcnt"].ToString()+")"});
             }
 

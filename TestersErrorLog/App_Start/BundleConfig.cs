@@ -23,7 +23,17 @@ namespace TestersErrorLog
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
-            bundles.Add(new StyleBundle("~/Content/css").IncludeDirectory("~/Content","*.css",true));
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/bootstrap-theme.css",
+                "~/Content/bootstrap-theme.css.map",
+                "~/Content/bootstrap-theme.min.css",
+                "~/Content/bootstrap-theme.min.css.map",
+                "~/Content/bootstrap.css",
+                "~/Content/bootstrap.min.css",
+                "~/Content/Gridmvc.css",
+                "~/Content/Site.css"
+
+                ));
 
             //bundles.Add(new ScriptBundle("~/bundles/DataTables").IncludeDirectory("~/Scripts/DataTables", "*.js", true));
 
