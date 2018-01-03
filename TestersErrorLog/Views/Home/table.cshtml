@@ -20,44 +20,45 @@
                        {
                            columns.Add(model => model.Id).Titled("ID").SetWidth(50).Sortable(true);
                            columns.Add(model => model.CompleteDate).Titled("Date Complete").Sortable(true);
-                           columns.Add(model => model.URL).Titled("URL").Sortable(true);
+                           columns.Add(model => model.URL).Titled("Name").Filterable(false).Sanitized(false).Encoded(false).
+                            RenderValueAs(model => Html.ActionLink(model.URL,"ViewProduct", "Showcase", new { urlID = model.URL }, null).ToHtmlString());
                            columns.Add(model => model.StatusLevel).Titled("Status Level").Sortable(true);
                            columns.Add(model => model.ErrorMessage).Titled("Error Message").Filterable(true);
                        }).WithPaging(10)
 
 
-                            @*<table id="table" class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Id</th>
-                                        <th>Date</th>
-                                        <th>URL</th>
-                                        <th>Status</th>
-                                        <th>Error Message</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        @foreach (var item in Model.Items)
-                                        {
-                                        <tr>
-                                            <td>@item.Id</td>
-                                            <td>@item.CompleteDate</td>
-                                            <td><a href="@item.URL">@item.URL</a></td>
-                                            <td>@item.StatusLevel</td>
-                                            <td>@item.ErrorMessage</td>
-                                        </tr>
-                                        }
-                                    </tbody>
-                                </table>*@
-                        }
-
+                                    @*<table id="table" class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Date</th>
+                    <th>URL</th>
+                    <th>Status</th>
+                    <th>Error Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    @foreach (var item in Model.Items)
+                    {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.CompleteDate</td>
+                        <td><a href="@item.URL">@item.URL</a></td>
+                        <td>@item.StatusLevel</td>
+                        <td>@item.ErrorMessage</td>
+                    </tr>
                     }
+                </tbody>
+            </table>*@
+                                    }
+
+                                    }
 
 
 
 
-                </div>
+</div>
             </div>
         </div>
     </div>

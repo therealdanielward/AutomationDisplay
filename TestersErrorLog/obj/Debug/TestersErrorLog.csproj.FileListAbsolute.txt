@@ -100,3 +100,8 @@ C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\Tes
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\DanielW\qsync\documents\visual studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\GridMvc.dll
+C:\Users\DanielW\Qsync\Documents\Visual Studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\MvcTricks.RoundTripModelBinding.dll
+C:\Users\DanielW\Qsync\Documents\Visual Studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.dll
+C:\Users\DanielW\Qsync\Documents\Visual Studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\MvcTricks.RoundTripModelBinding.xml
+C:\Users\DanielW\Qsync\Documents\Visual Studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.pdb
+C:\Users\DanielW\Qsync\Documents\Visual Studio 2017\Projects\TestersErrorLog\TestersErrorLog\bin\ServiceStack.Text.xml
